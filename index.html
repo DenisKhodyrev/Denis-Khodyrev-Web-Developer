@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <title> Денис Ходырев - Web-разработчик </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <div class="wrapper">
+            <header class="header">
+                    <div class="header__part-left">
+                        <div class="header__logo"><a href="#"><img class="header__logo-img" src="img/logo2.png" alt="Денис Ходырев - Web-разработчик"></a></div>
+                    </div>
+                    <div class="header__part-right">
+                        <div class="header__menu-item"> <a href="#portfolio"> Портфолио </a> </div>
+                        <div class="header__menu-item"> <a href="#stack"> Технологии </a> </div>
+                        <button class="header__btn"> Обсудить проект </button>
+                        <div class="header__menu-btn menu-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+            </header>
+            
+            <div class="header__menu-mobile menu-mobile">
+                <ul>
+                    <li> <a class="menu-mobile__item" href="#portfolio"> Портфолио </a> </li>
+                    <li> <a class="menu-mobile__item" href="#stack"> Технологии </a> </li>
+                </ul>
+            </div>
+
+            <div class="first-screen">
+                <div class="first-screen__title"> 
+                    <div> <Денис Ходырев> </div>
+                    <div> <Веб-разработчик> </div>
+                </div>
+                <div class="first-screen__img">
+                    <img src="img\programmer-gif.gif" alt="web">
+                </div>
+            </div>
+
+            <div class="portfolio" id="portfolio">
+                <div class="portfolio__title"> <h2> <Портфолио> </h2> </div>
+                <div class="portfolio__menu">
+                    <div class="portfolio__menu-item-1"> <a href="" class="portfolio__menu-item_active"> LP </a> </div>
+                    <div class="portfolio__menu-item-2"> <a href=""> Web-сайты </a> </div>
+                    <div class="portfolio__menu-item-3"> <a href=""> Интернет-магазины </a> </div>
+                    <div class="portfolio__menu-item-4"> <a href=""> Web-приложения </a> </div>
+                </div>
+
+            </div>
+            
+            <div class="portfolio-lp portfolio-item-active">
+                <div class="portfolio-lp__item"> <a href="#popup1"> LP "Название проекта" на чистом html и css с интересной анимацией на CSS </a> </div>
+                <div class="portfolio-lp__item"> <a href="#popup2"> LP "Название проекта" на html, css, JS </a> </div>
+                <div class="portfolio-lp__item"> <a href="#popup3"> LP "Название проекта" на чистом html и css с интересной анимацией без JS </a> </div>
+                <div class="portfolio-lp__item"> <a href="#popup4"> LP "Название проекта" на Тильде с использованием Zero-блоков и подключением JS-скриптов </a> </div>
+            </div>
+
+            <div class="popup1" id="popup1">
+                <a href="#portfolio" class="popup__area1"></a>
+                <div class="popup__body1">
+                    <div class="popup__content1">
+                        <a href="#portfolio" class="popup__close1">X</a>
+                        <div class="popup__title1"> Одностраничный сайт для компании по продаже гидроизоляции </div>
+                        <div class="popup__text1"> Проект выполнен на чистом html и css, применина интересной анимация с помощью CSS без участия JS </div>
+                        <img src="img\slide1.jpg" alt="">
+                        <a class="popup__link1" href="https://deniskhodyrev.github.io/LP-UX-UI-designer/"> Ссылка на сайт </a>
+                        <br>
+                        <a class="popup__link1" href="https://github.com/DenisKhodyrev/LP-UX-UI-designer.git"> Ссылка на проект на Git Hub </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup2" id="popup2">
+                <a href="#portfolio" class="popup__area2"></a>
+                <div class="popup__body2">
+                    <div class="popup__content2">
+                        <a href="#portfolio" class="popup__close2">X</a>
+                        <div class="popup__title2"> LP "Название проекта" 2 </div>
+                        <div class="popup__text2"> Проект выполнен на чистом html и css с интересной анимацией на CSS </div>
+                        <img src="img\slide1.jpg" alt="">
+                        <a class="popup__link1" href="https://deniskhodyrev.github.io/lorem-ipsum/"> Ссылка на сайт </a>
+                        <br>
+                        <a class="popup__link1" href="https://github.com/DenisKhodyrev/lorem-ipsum"> Ссылка на проект на Git Hub </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup3" id="popup3">
+                <a href="#portfolio" class="popup__area3"></a>
+                <div class="popup__body3">
+                    <div class="popup__content3">
+                        <a href="#portfolio" class="popup__close3">X</a>
+                        <div class="popup__title3"> LP "Название проекта" 3 </div>
+                        <div class="popup__text3"> Проект выполнен на чистом html и css с интересной анимацией на CSS </div>
+                        <img src="img\slide1.jpg" alt="">
+                        <a class="popup__link1" href=""> Ссылка на проект на Git Hub </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popup4" id="popup4">
+                <a href="#portfolio" class="popup__area4"></a>
+                <div class="popup__body4">
+                    <div class="popup__content4">
+                        <a href="#portfolio" class="popup__close4">X</a>
+                        <div class="popup__title4"> LP "Название проекта" 4 </div>
+                        <div class="popup__text4"> Проект выполнен на чистом html и css с интересной анимацией на CSS </div>
+                        <img src="img\slide1.jpg" alt="">
+                        <a class="popup__link1" href=""> Ссылка на проект на Git Hub </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-web-sites">
+                <div class="portfolio-web-sites__item"> <a href=""> Web-сайт "Название проекта" на чистом html и css с интересной анимацией на CSS </a> </div>
+                <div class="portfolio-web-sites__item"> <a href=""> Web-сайт "Название проекта" на html, css, JS </a> </div>
+                <div class="portfolio-web-sites__item"> <a href=""> Web-сайт "Название проекта" на чистом html и css с интересной анимацией без JS </a> </div>
+                <div class="portfolio-web-sites__item"> <a href=""> Web-сайт "Название проекта" на Тильде с использованием Zero-блоков и подключением JS-скриптов </a> </div>
+            </div>
+
+            <div class="portfolio-online-stores">
+                <div class="portfolio-online-stores__item"> <a href=""> Интернет-магазин "Название проекта" на чистом html и css с интересной анимацией на CSS </a> </div>
+                <div class="portfolio-online-stores__item"> <a href=""> Интернет-магазин "Название проекта" на html, css, JS </a> </div>
+                <div class="portfolio-online-stores__item"> <a href=""> Интернет-магазин "Название проекта" на чистом html и css с интересной анимацией без JS </a> </div>
+                <div class="portfolio-online-stores__item"> <a href=""> Интернет-магазин "Название проекта" на Тильде с использованием Zero-блоков и подключением JS-скриптов </a> </div>
+            </div>
+
+            <div class="portfolio-web-applications">
+                <div class="portfolio-web-applications__item"> <a href=""> Web-приложение "Название проекта" на чистом html и css с интересной анимацией на CSS </a> </div>
+                <div class="portfolio-web-applications__item"> <a href=""> Web-приложение "Название проекта" на html, css, JS </a> </div>
+                <div class="portfolio-web-applications__item"> <a href=""> Web-приложение "Название проекта" на чистом html и css с интересной анимацией без JS </a> </div>
+                <div class="portfolio-web-applications__item"> <a href=""> Web-приложение "Название проекта" на Тильде с использованием Zero-блоков и подключением JS-скриптов </a> </div>
+            </div>
+
+            <div class="stack" id="stack">
+                <div class="stack__title"> <h2> <Стек технологий> </h2> </div>
+                <div class="stack__menu">
+                    <div class="stack__menu-item"> HTML </div>
+                    <div class="stack__menu-item"> HTML5 </div>
+                    <div class="stack__menu-item"> CSS </div>
+                    <div class="stack__menu-item"> JS </div>
+                    <div class="stack__menu-item"> Canvas </div>
+                    <div class="stack__menu-item"> SVG </div>
+                    <div class="stack__menu-item"> GIT </div>
+                    <div class="stack__menu-item"> CMS Wordpress </div>
+                    <div class="stack__menu-item"> CMS 1С-Битрикс </div>
+                    <div class="stack__menu-item"> Tilda </div>
+                    <div class="stack__menu-item"> REACT </div>
+                    <div class="stack__menu-item"> Prepros </div>
+                    <div class="stack__menu-item"> Gulp </div>
+                    <div class="stack__menu-item"> Webpack </div>
+                    
+                </div>
+            </div>
+
+            <div class="contacts">
+                <div class="contacts__title"> <h2> <Контакты> </h2> </div>
+                    <div class="contacts__item"> Телефон: +7 (937) 80 28 333 </div>
+                    <div class="contacts__item"> E-mail: khodyrev.den@yandex.ru </div>
+                    <div class="contacts__item"> Telegram: @Denis_Khodyrev </div>
+            </div>
+            
+            <div class="mobilebtn">
+                <button class="mobilebtn__btn"> Обсудить проект </button>
+            </div>
+
+
+            <footer class="footer">
+                <!-- <div class="footer__item"> Телефон: +7 (937) 80 28 333 </div>
+                <div class="footer__item"> khodyrev.den@yandex.ru </div> -->
+            </footer>
+
+
+        </div>
+        <script src='./base.js'></script>
+    </body>
+</html>
